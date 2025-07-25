@@ -1,0 +1,67 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To Do List By Timothy</title>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Todo List</h1>
+    </header>
+    <form>
+      <div>
+        <label>add new task</label>
+        <input>
+      </div>
+    </form>
+  </main>
+  <script src="js/script.js">
+
+  </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo List</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="todo-box">
+    <h2>Todo List</h2>
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Add a todo . . ." />
+      <input type="date" id="dateInput" />
+      <button id="addBtn">+</button>
+    </div>
+
+    <div class="actions">
+      <button id="filterBtn">Filter</button>
+      <button id="deleteAllBtn">Delete All</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Task</th>
+          <th>Due Date</th>
+          <th>Status</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="taskTable">
+        <tr><td colspan="4" style="text-align:center;">No task found</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

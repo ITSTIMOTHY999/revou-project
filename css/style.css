@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  background-color: #0e1320;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.todo-box {
+  background-color: #1e2433;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.todo-box h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #cfcfff;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.input-group input[type="text"],
+.input-group input[type="date"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #2c3247;
+  color: white;
+}
+
+.input-group button {
+  background: #7a80ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.actions button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+#filterBtn {
+  background-color: #2c3247;
+}
+
+#deleteAllBtn {
+  background-color: #a098fc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #0e1320;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #2c3247;
+}
+
+thead th {
+  padding: 10px;
+  text-align: left;
+  color: #aab4e0;
+}
+
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #2c3247;
+  color: #d2d8ff;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.action-btn {
+  background: red;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
